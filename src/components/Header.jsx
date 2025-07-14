@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logo from "./../assets/img/logo-header.png";
 import { FaCartArrowDown, FaList, FaSearch } from "react-icons/fa";
+import grocery from "./../assets/img/hero-vegetables.png";
 
 const Header = () => {
   const [showNav, setShowNav] = useState(false);
@@ -76,6 +77,23 @@ const Header = () => {
           </ul>
         )}
       </nav>
+      <div className="w-full flex flex-col gap-3 items-center md:px-10 px-5 pt-5">
+        <h1 className="lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-medium text-center max-w-2xl">
+          Freshness
+          <span className="text-green-500"> You Can</span> <br />
+          <span className="text-green-500"> Count </span>
+          On, Prices You&apos;ll Love!
+        </h1>
+        <p className="text-gray-700 max-w-lg text-center">
+          Shop your daily essentials at unbeatable prices. From fresh produce to
+          pantry staples, we&apos;ve got you covered every day!
+        </p>
+        <img
+          className="lg:w-8/12 md:w-9/12 w-10/12"
+          src={grocery}
+          alt="grocery"
+        />
+      </div>
     </div>
   );
 };
