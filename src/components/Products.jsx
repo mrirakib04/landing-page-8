@@ -6,7 +6,10 @@ import { FaStar } from "react-icons/fa";
 
 const Products = () => {
   return (
-    <div className="w-full md:px-10 px-5 md:py-20 py-10 flex flex-col gap-5 bg-[#FFF9F4]">
+    <div
+      id="Products"
+      className="w-full md:px-10 px-5 md:py-20 py-10 flex flex-col gap-5 bg-[#FFF9F4]"
+    >
       <h2 className="md:text-3xl text-2xl font-semibold text-green-700">
         Popular Products
       </h2>
