@@ -13,7 +13,7 @@ function App() {
       <Services></Services>
       <Products></Products>
       <Offers></Offers>
-      <div className="w-full bg-[#179800] flex flex-col items-center">
+      <div className="w-full bg-[#179800] flex flex-col items-center pt-40 md:mt-40 mt-96 relative">
         <Newsletter></Newsletter>
         <Footer></Footer>
       </div>
